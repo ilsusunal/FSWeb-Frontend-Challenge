@@ -7,7 +7,7 @@ const ScrollToTop = () => {
     // Sayfa yüklendiğinde ve kullanıcı scroll yaptığında buton görünecek
     useEffect(() => {
         const toggleVisibility = () => {
-            if (window.pageYOffset > 300) {
+            if ((window.innerHeight + window.scrollY) < document.body.offsetHeight - 100) {
                 setIsVisible(true);
             } else {
                 setIsVisible(false);
@@ -30,7 +30,7 @@ const ScrollToTop = () => {
     };
 
     return (
-        <div className="fixed right-4 bottom-4">
+        <div className="fixed right-4 bottom-4 z-10">
             {isVisible && (
                 <button
                     onClick={scrollToTop}
