@@ -4,12 +4,13 @@ import App from './App.jsx'
 import './index.css'
 import { DarkModeProvider } from './contexts/DarkModeContext.jsx'
 import { LanguageProvider } from './contexts/LanguageContext.jsx'
+import { LangProvider } from './contexts/LangChangeContext.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <DarkModeProvider>
-        <LanguageProvider>
+        <LangProvider>
             <App />
-        </LanguageProvider>
+        </LangProvider>
     </DarkModeProvider>
 )

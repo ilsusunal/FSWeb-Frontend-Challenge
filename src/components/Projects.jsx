@@ -1,10 +1,10 @@
 import computerImage from "../assets/images/computer.png"
-import { LanguageContext } from "../contexts/LanguageContext"
+import { LangChangeContext } from "../contexts/LangChangeContext"
 import { useContext } from "react"
 import { useTheme } from "../contexts/DarkModeContext";
 
 export default function Projects (){
-    const { translations } = useContext(LanguageContext);
+    const { translations } = useContext(LangChangeContext);
     const { theme } = useTheme();
 
     const { projectsTitle, projects } = translations;

@@ -4,7 +4,7 @@ import reduxLogo from "../assets/icons/reduxlogo.jpg"
 import nodeLogo from "../assets/icons/nodelogo.jpg"
 import vscodeLogo from "../assets/icons/vscodelogo.jpg"
 import figmaLogo from "../assets/icons/figmalogo.jpg"
-import { LanguageContext } from "../contexts/LanguageContext"
+import { LangChangeContext } from "../contexts/LangChangeContext"
 import { useContext } from "react"
 
 export default function Skills (){
@@ -17,7 +17,7 @@ export default function Skills (){
         { logo: vscodeLogo, name: "VS CODE" },
         { logo: figmaLogo, name: "FIGMA" }
     ];
-    const { translations } = useContext(LanguageContext);
+    const { translations } = useContext(LangChangeContext);
 
     const skillsTitle = translations.skillsTitle;
 

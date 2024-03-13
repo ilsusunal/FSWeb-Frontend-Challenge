@@ -21,6 +21,8 @@ const LanguageProvider = ({ children }) => {
             setLoading(false); // Data yüklenene kadar sayfa render edilmesin
         }
     };
+
+    
     useEffect(() => {
         const fetchData = async () => {
             await loadTranslations();// Dil değiştiğinde dil dosyasını yükle

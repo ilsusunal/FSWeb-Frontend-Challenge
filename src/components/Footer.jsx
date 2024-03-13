@@ -1,8 +1,8 @@
-import { LanguageContext } from "../contexts/LanguageContext"
+import { LangChangeContext } from "../contexts/LangChangeContext"
 import React, { useContext } from "react"
 
 export default function Footer (){
-    const { translations } = useContext(LanguageContext);
+    const { translations } = useContext(LangChangeContext);
     const { goodbye} = translations;
 
     return(

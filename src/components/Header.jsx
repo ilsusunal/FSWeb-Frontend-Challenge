@@ -2,12 +2,13 @@ import LanguageToggle from "./LanguageToggle";
 import { useTheme } from "../contexts/DarkModeContext";
 import { LanguageContext } from "../contexts/LanguageContext"
 import { useContext } from "react";
+import { LangChangeContext } from "../contexts/LangChangeContext";
 
 export default function Header (){
     const { theme, toggleTheme } = useTheme();
     console.log("Dark-mode check:", theme);
 
-    const { language } = useContext(LanguageContext);
+    const { language } = useContext(LangChangeContext);
     return(
         <>
         <header className="flex justify-end px-10 pb-8 pt-20 md:px-60" >
