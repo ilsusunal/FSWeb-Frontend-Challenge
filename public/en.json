@@ -1,0 +1,44 @@
+{
+    "id":"en",
+    "lang": "ENGLISH",
+    "greeting": "Hi!",
+    "intro": "I’m Almila. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+    "social1": "Currently Freelancing for UX, UI, & Web Design Project.",
+    "social2": "Invite me to join your team ->",
+    "social3": "pratamaiosi@gmail.com",
+    "skillsTitle": "Skills",
+    "profileTitle": "Profile",
+    "infoTitle": "Basic Information",
+    "info": {
+        "Date of Birth": "March 24, 1996",
+        "City of Residence": "Ankara",
+        "Education": "Hacettepe Uni., Bachelor of Biology, 2016",
+        "Position": "Frontend, UI"
+    },
+    "about": "About me",
+    "aboutInfo": "ENGLISH TEXT: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+    "projectsTitle": "Projects",
+    "projects": [{
+        "title": "Random Jokes",
+        "description": "ENGLISH : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+        "tags": ["react", "vercel", "axios", "router"],
+        "githubLink": "#",
+        "github": "View on Github",
+        "appLink": "#",
+        "app": "Go to App ->",
+        "img":"public/images/project1.jpg"
+    },
+    {
+        "title": "Are you bored?",
+        "description": "ENGLISH : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        "tags": ["react", "redux", "axios", "router", "vercel"],
+        "githubLink": "#",
+        "github": "View on Github",
+        "appLink": "#",
+        "app": "Go to App ->",
+        "img":"public/images/project2.jpg"
+    }],
+    "goodbye": "Let’s work together on your next product."
+    
+    
+}

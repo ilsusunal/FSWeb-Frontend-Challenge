@@ -1,0 +1,44 @@
+{
+    "id": "tr",
+    "lang": "TÜRKÇE",
+    "greeting": "Merhaba!",
+    "intro": "Ben Almila! Full-stack web geliştiriciyim. Güvenilir frontend ürünleri geliştiriyorum. Hadi tanışalım!",
+    "social1": "Şu an Freelance olarak UX, UI ve Web Tasarımı yapıyorum.",
+    "social2": "Takımına katılmamı istiyorsan ->",
+    "social3": "pratamaiosi@gmail.com",
+    "skillsTitle": "Beceriler",
+    "profileTitle": "Profil",
+    "infoTitle": "Kısa Özgeçmiş",
+    "info": {
+        "Doğum Tarihi": "Mart 24, 1996",
+        "İkamet Şehri": "Ankara",
+        "Eğitim Durumu": "Hacettepe Ünv., Biyoloji Lisans, 2016",
+        "Tercih Ettiği Rol": "Frontend, UI"
+    },
+    "about": "Hakkımda",
+    "aboutInfo": "TÜRKÇE METİN: Lorem ipsum, Çolor sit ğamet üconsectetur çççadipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.  Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+    "projectsTitle": "Projeler",
+    "projects": [{
+        "title": "Rastgele Şakalar",
+        "description": "TÜRKÇE : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+        "tags": ["react", "vercel", "axios", "router"],
+        "githubLink": "#",
+        "github": "Github'da Görüntüle",
+        "appLink": "#",
+        "app": "Uygulamaya Git ->",
+        "img":"public/images/project1.jpg"
+    },
+    {
+        "title": "Sıkıldın mı?",
+        "description": "TÜRKÇE : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+        "tags": ["react", "redux", "axios", "router", "vercel"],
+        "githubLink": "#",
+        "github": "Github'da Görüntüle",
+        "appLink": "#",
+        "app": "Uygulamaya Git ->",
+        "img":"public/images/project2.jpg"
+    }],
+    "goodbye": "Hadi bir sonraki projende birlikte çalışalım."
+    
+    
+}
