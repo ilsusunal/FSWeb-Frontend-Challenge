@@ -26,7 +26,7 @@
         "github": "Github'da Görüntüle",
         "appLink": "#",
         "app": "Uygulamaya Git ->",
-        "img":"public/images/project1.jpg"
+        "img":"https://i.ibb.co/nC6jsVY/project1.jpg"
     },
     {
         "title": "Sıkıldın mı?",
@@ -36,9 +36,7 @@
         "github": "Github'da Görüntüle",
         "appLink": "#",
         "app": "Uygulamaya Git ->",
-        "img":"public/images/project2.jpg"
+        "img":"https://i.ibb.co/SrJr5mX/project2.jpg"
     }],
-    "goodbye": "Hadi bir sonraki projende birlikte çalışalım."
-    
-    
+    "goodbye": "Hadi bir sonraki projende birlikte çalışalım."  
 }

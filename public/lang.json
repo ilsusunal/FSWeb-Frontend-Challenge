@@ -1,0 +1,86 @@
+[
+    {
+        "id":"en",
+        "lang": "ENGLISH",
+        "greeting": "Hi!",
+        "intro": "I’m Almila. I’m a full-stack developer. I can craft solid and scalable frontend products. Let’s meet!",
+        "social1": "Currently Freelancing for UX, UI, & Web Design Project.",
+        "social2": "Invite me to join your team ->",
+        "social3": "pratamaiosi@gmail.com",
+        "skillsTitle": "Skills",
+        "profileTitle": "Profile",
+        "infoTitle": "Basic Information",
+        "info": {
+            "Date of Birth": "March 24, 1996",
+            "City of Residence": "Ankara",
+            "Education": "Hacettepe Uni., Bachelor of Biology, 2016",
+            "Position": "Frontend, UI"
+        },
+        "about": "About me",
+        "aboutInfo": "ENGLISH TEXT: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia. Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "projectsTitle": "Projects",
+        "projects": [{
+            "title": "Random Jokes",
+            "description": "ENGLISH : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            "tags": ["react", "vercel", "axios", "router"],
+            "githubLink": "#",
+            "github": "View on Github",
+            "appLink": "#",
+            "app": "Go to App ->",
+            "img":"https://i.ibb.co/TLYtBn7/proje1.png"
+        },
+        {
+            "title": "Are you bored?",
+            "description": "ENGLISH : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+            "tags": ["react", "redux", "axios", "router", "vercel"],
+            "githubLink": "#",
+            "github": "View on Github",
+            "appLink": "#",
+            "app": "Go to App ->",
+            "img":"https://i.ibb.co/6BNBrtR/proje2.png"
+        }],
+        "goodbye": "Let’s work together on your next product."
+    },
+    {
+        "id": "tr",
+        "lang": "TÜRKÇE",
+        "greeting": "Merhaba!",
+        "intro": "Ben Almila! Full-stack web geliştiriciyim. Güvenilir frontend ürünleri geliştiriyorum. Hadi tanışalım!",
+        "social1": "Şu an Freelance olarak UX, UI ve Web Tasarımı yapıyorum.",
+        "social2": "Takımına katılmamı istiyorsan ->",
+        "social3": "pratamaiosi@gmail.com",
+        "skillsTitle": "Beceriler",
+        "profileTitle": "Profil",
+        "infoTitle": "Kısa Özgeçmiş",
+        "info": {
+            "Doğum Tarihi": "Mart 24, 1996",
+            "İkamet Şehri": "Ankara",
+            "Eğitim Durumu": "Hacettepe Ünv., Biyoloji Lisans, 2016",
+            "Tercih Ettiği Rol": "Frontend, UI"
+        },
+        "about": "Hakkımda",
+        "aboutInfo": "TÜRKÇE METİN: Lorem ipsum, Çolor sit ğamet üconsectetur çççadipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.  Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! ",
+        "projectsTitle": "Projeler",
+        "projects": [{
+            "title": "Rastgele Şakalar",
+            "description": "TÜRKÇE : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.",
+            "tags": ["react", "vercel", "axios", "router"],
+            "githubLink": "#",
+            "github": "Github'da Görüntüle",
+            "appLink": "#",
+            "app": "Uygulamaya Git ->",
+            "img":"https://i.ibb.co/TLYtBn7/proje1.png"
+        },
+        {
+            "title": "Sıkıldın mı?",
+            "description": "TÜRKÇE : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!",
+            "tags": ["react", "redux", "axios", "router", "vercel"],
+            "githubLink": "#",
+            "github": "Github'da Görüntüle",
+            "appLink": "#",
+            "app": "Uygulamaya Git ->",
+            "img":"https://i.ibb.co/6BNBrtR/proje2.png"
+        }],
+        "goodbye": "Hadi bir sonraki projende birlikte çalışalım."  
+    }
+]
