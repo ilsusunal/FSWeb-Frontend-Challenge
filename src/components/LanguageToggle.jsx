@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import { LanguageContext } from '../contexts/LanguageContext';
+import { LangChangeContext } from '../contexts/LangChangeContext';
 import { useTheme } from "../contexts/DarkModeContext";
 
 const LanguageToggle = () => {
-  const { language, changeLanguage } = useContext(LanguageContext);
+  const { language, changeLanguage } = useContext(LangChangeContext);
   const { theme, toggleTheme } = useTheme();
 
   const handleLanguageToggle = () => {

@@ -1,6 +1,6 @@
 import React,  { useContext} from "react";
 
-import { LanguageContext } from "../contexts/LanguageContext";
+import { LangChangeContext } from "../contexts/LangChangeContext";
 import { useTheme} from "../contexts/DarkModeContext";
 
 import githubbeyaz from "../assets/social/githubbeyaz.png"
@@ -12,7 +12,7 @@ import emoji from "../assets/images/wavinghand.png";
 import usePinkify from "../hooks/usePinkify";
 
 export default function Hero (){
-    const { translations, language } = useContext(LanguageContext);
+    const { translations, language } = useContext(LangChangeContext);
     console.log("Translations:", translations);
     console.log("Language:", language);
 
