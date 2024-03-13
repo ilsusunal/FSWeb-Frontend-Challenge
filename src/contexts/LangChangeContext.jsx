@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { createContext, useEffect, useState } from 'react';
 import useLocalStorage from '../hooks/useLocalStorage';
+import { toast } from 'react-toastify';
 
 const LangChangeContext = createContext();
 
@@ -10,26 +11,26 @@ const LangProvider = ({ children }) => {
     const [loading, setLoading] = useState(true); // Sayfanın yüklenme durumu
 
     // Dil dosyasını yükle
-    const loadTranslations = async () => {
-        try {
-            const response = await axios.get('https://65f1e7c6034bdbecc763ff98.mockapi.io/api/v1/languages',{
-                headers: {'content-type': 'application/json'}
-            });
-            const filteredData = response.data.find(item => item.id === language); // Seçilen dile göre filtreleme
-            setTranslations(filteredData || {}); // Eğer dil bulunamazsa boş obje atar
-            setLoading(false); // Yükleme tamamlandı
-        } catch (error) {
-            console.error('Error fetching translations:', error);
-            // Hata durumunda uygun şekilde ele al
-        }
-    };
-
     useEffect(() => {
+        const loadTranslations = async () => {
+            try {
+                const response = await axios.get('https://65f1e7c6034bdbecc763ff98.mockapi.io/api/v1/languages',{
+                    headers: {'content-type': 'application/json'}
+                });
+                const filteredData = response.data.find(item => item.id === language); // Seçilen dile göre filtreleme
+                setTranslations(filteredData || {}); // Eğer dil bulunamazsa boş obje atar
+                setLoading(false); // Yükleme tamamlandı
+                toast('Merhaba! Hoşgeldin!');
+            } catch (error) {
+                console.error('Error fetching translations:', error);
+            }
+        };
+
         loadTranslations(); // Dil değiştiğinde dil dosyasını yükle
-    }, [language]);
+    }, []);
 
     const changeLanguage = (newLanguage) => {
-        setLanguage(newLanguage); // Yeni dili yükleme işlemi
+        setLanguage(newLanguage); // Dili değiştir
     };
 
     // Yüklenme durumunu kontrol et, eğer yükleme tamamlanmadıysa yüklenmeyi bekle
@@ -37,7 +38,7 @@ const LangProvider = ({ children }) => {
         return <div>Loading...</div>;
     }
 
-    // Yükleme tamamlandıysa, dil sağlanarak çocuk bileşenler render edilir
+    // Yükleme tamamlandıysa, render et
     return (
         <LangChangeContext.Provider value={{ language, translations, changeLanguage }}>
             {children}
