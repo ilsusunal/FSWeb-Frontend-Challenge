@@ -1,6 +1,5 @@
 import LanguageToggle from "./LanguageToggle";
 import { useTheme } from "../contexts/DarkModeContext";
-import { LanguageContext } from "../contexts/LanguageContext"
 import { useContext } from "react";
 import { LangChangeContext } from "../contexts/LangChangeContext";
 

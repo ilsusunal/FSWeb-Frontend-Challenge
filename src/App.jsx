@@ -23,15 +23,15 @@ function App() {
   return (
         <main className="dark:bg-acikkahve dark:text-white">
           <section  className="dark:bg-koyukahve bg-zinc-100 relative">
-            <img className="absolute -left-4 md:left-1/4 z-0 " src={greyCircle} alt="" />
-            <img className="absolute right-0 top-2/4 md:top-3/4" src={pinkRec} alt="" />
-            <img className="absolute left-4 md:left-2/3 -bottom-16" src={greyDonut} alt="" />
+            <img className="absolute -left-4 md:left-1/4 z-0 " src={greyCircle} alt="Ornament" />
+            <img className="absolute right-0 top-2/4 md:top-3/4" src={pinkRec} alt="Ornament" />
+            <img className="absolute left-4 md:left-2/3 -bottom-16" src={greyDonut} alt="Ornament" />
             <Header />
             <Hero/>
           </section>
           <div className="relative">
-            <img className="absolute top-full md:top-3/4" src={greyRec} alt="" />
-            <img className="absolute right-0 -bottom-44 md:-bottom-24" src={pinkDonut} alt="" />
+            <img className="absolute top-full md:top-3/4" src={greyRec} alt="Ornament" />
+            <img className="absolute right-0 -bottom-44 md:-bottom-24" src={pinkDonut} alt="Ornament" />
             <Skills/>
             <ScrollToTop />
           </div>

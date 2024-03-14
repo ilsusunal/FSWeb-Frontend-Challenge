@@ -37,7 +37,7 @@ const ScrollToTop = () => {
                 className={`right-2 bottom-2 sm:right-4 sm:bottom-4 z-10  w-12 h-12 sm:w-24 sm:h-24`}
                     onClick={scrollToTop}
                 >
-                  <img src={scrollUp}  alt="" /> 
+                  <img src={scrollUp}  alt="ScrollButton" /> 
                 </button>
             )}
         </div>

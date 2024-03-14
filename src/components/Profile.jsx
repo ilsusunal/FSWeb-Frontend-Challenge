@@ -1,10 +1,8 @@
-import { useTheme } from "../contexts/DarkModeContext";
 import { LangChangeContext } from "../contexts/LangChangeContext"
 import React, { useContext } from "react"
 
 export default function Profile (){
     const { translations } = useContext(LangChangeContext);
-    const { theme } = useTheme();
 
     const { profileTitle, infoTitle, about, aboutInfo, info } = translations;
 
