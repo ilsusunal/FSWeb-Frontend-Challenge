@@ -37,8 +37,8 @@ export default function Hero (){
                     </div> 
                 </div>
                 <div className=" flex gap-4 mt-4">
-                    <a href="/">{theme === "dark" ? <img src={linkedinbeyaz} alt="" /> : <img src={linkedinsiyah} alt="" />}</a>
-                    <a href="/">{theme === "dark" ? <img src={githubbeyaz} alt="" /> : <img src={githubsiyah} alt="" />}</a>
+                    <a href="/">{theme === "light" ? <img src={linkedinbeyaz} alt="" /> : <img src={linkedinsiyah} alt="" />}</a>
+                    <a href="/">{theme === "light" ? <img src={githubbeyaz} alt="" /> : <img src={githubsiyah} alt="" />}</a>
                 </div>
                 <div className="py-4 tracking-wide">
                     <p className="my-2">
