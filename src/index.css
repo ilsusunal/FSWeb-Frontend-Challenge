@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  @apply transition-colors duration-100
+}
+
 #root {
     padding: 0;
     font-family: Inter, "Playfair Display";
@@ -9,10 +13,7 @@
     margin: 0;
     max-width: none;
 }
- 
-.Toastify__toast {
-  background-color: #e92577;
-}
+
 
 @font-face {
     font-family: 'Playfair Display';

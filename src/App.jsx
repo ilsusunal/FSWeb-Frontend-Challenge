@@ -1,5 +1,4 @@
 import './App.css';
-import { useTheme } from './contexts/DarkModeContext';
 
 import Hero from "./components/Hero";
 import Footer from './components/Footer';
@@ -18,18 +17,17 @@ import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
-  const { theme } = useTheme();
 
   return (
-        <main className="dark:bg-acikkahve dark:text-white">
-          <section  className="dark:bg-koyukahve bg-zinc-100 relative">
+        <main>
+          <section  className="dark:bg-koyukahve dark:text-white bg-zinc-100 relative">
             <img className="absolute -left-4 md:left-1/4 z-0 " src={greyCircle} alt="Ornament" />
             <img className="absolute right-0 top-2/4 md:top-3/4" src={pinkRec} alt="Ornament" />
             <img className="absolute left-4 md:left-2/3 -bottom-16" src={greyDonut} alt="Ornament" />
             <Header />
             <Hero/>
           </section>
-          <div className="relative">
+          <div className="relative dark:bg-acikkahve dark:text-white">
             <img className="absolute top-full md:top-3/4" src={greyRec} alt="Ornament" />
             <img className="absolute right-0 -bottom-44 md:-bottom-24" src={pinkDonut} alt="Ornament" />
             <Skills/>
@@ -38,10 +36,10 @@ function App() {
           <div  className="dark:bg-koyukahve bg-zinc-100 ">
             <Profile/>
           </div>
-          <div>
+          <div  className="relative dark:bg-acikkahve dark:text-white">
             <Projects/>
           </div>
-          <footer>
+          <footer  className="relative dark:bg-acikkahve dark:text-white">
             <Footer/>
           </footer>
         </main>
