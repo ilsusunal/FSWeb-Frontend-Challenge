@@ -33,7 +33,7 @@ function App() {
             <Skills/>
             <ScrollToTop />
           </div>
-          <div  className="dark:bg-koyukahve bg-zinc-100 ">
+          <div  className="dark:bg-koyukahve dark:text-white bg-zinc-100 ">
             <Profile/>
           </div>
           <div  className="relative dark:bg-acikkahve dark:text-white">
