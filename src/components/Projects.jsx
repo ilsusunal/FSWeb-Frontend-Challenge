@@ -15,13 +15,13 @@ export default function Projects (){
             <h2 className="text-4xl tracking-wide font-medium pb-10">{projectsTitle}</h2>
             <div className=" grid md:grid-cols-2 gap-20">
             {projects.map((project, index) => (
-                <section key={index} className={`rounded-2xl w-full p-10 relative ${index % 2 === 0 ? (theme === "dark" ? "bg-koyuyesil" : "bg-bluecard") : (theme === "dark" ? "bg-solukyesil" : "bg-greencard")}`}>
+                <section key={index} className={`rounded-2xl w-full p-10 relative ${index % 2 === 0 ? ("dark:bg-koyuyesil bg-bluecard") : ("dark:bg-solukyesil bg-greencard")}`}>
                     <div className="">
                         <h2 className="text-3xl font-semibold pt-8 pb-6 font-playfair tracking-wide">{project.title}</h2>
                         <p className="">{project.description}</p>
                         <div className="flex flex-wrap gap-2 py-4 mt-6 text-xl font-playfair tracking-wide font-semibold" >
                             {project.tags.map((tag, tagIndex) => (
-                                <p key={tagIndex} className={theme === "dark" ? "bg-neutral-500 rounded-3xl py-1 px-6 " : "bg-white rounded-3xl py-1 px-6 "}>{tag}</p>
+                                <p key={tagIndex} className="bg-white dark:bg-neutral-500 rounded-3xl py-1 px-6 ">{tag}</p>
                                 ))}
                         </div>
                         <div className="flex justify-between text-xl py-4 mb-40 md:mb-60 font-semibold">

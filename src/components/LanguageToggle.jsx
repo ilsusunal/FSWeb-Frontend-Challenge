@@ -17,8 +17,8 @@ const LanguageToggle = () => {
   return (
     <button onClick={handleLanguageToggle} >
       {language === 'en' ? 
-        <span className={theme === "dark" ? 'text-sm font-semibold text-white' : 'text-sm font-semibold text-gri2'}><span className="first:text-pink2">TÜRKÇE</span> 'YE GEÇ</span> : 
-          <span className={theme === "dark" ? 'text-sm font-semibold text-white' : 'text-sm font-semibold text-gri2'}>SWITCH TO<span className="text-pink2"> ENGLISH</span></span>}
+        <span className='text-sm font-semibold text-gri2 dark:text-white'><span className="first:text-pink2">TÜRKÇE</span> 'YE GEÇ</span> : 
+          <span className='text-sm font-semibold text-gri2 dark:text-white'>SWITCH TO<span className="text-pink2"> ENGLISH</span></span>}
     </button>
   );
 };

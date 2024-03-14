@@ -21,8 +21,8 @@ function App() {
   const { theme } = useTheme();
 
   return (
-        <main className={theme === "dark" ? "bg-acikkahve text-white" :"bg-white relative "}>
-          <section  className={theme === "dark" ? "bg-koyukahve" :"bg-zinc-100 relative "}>
+        <main className="dark:bg-acikkahve dark:text-white">
+          <section  className="dark:bg-koyukahve bg-zinc-100 relative">
             <img className="absolute -left-4 md:left-1/4 z-0 " src={greyCircle} alt="" />
             <img className="absolute right-0 top-2/4 md:top-3/4" src={pinkRec} alt="" />
             <img className="absolute left-4 md:left-2/3 -bottom-16" src={greyDonut} alt="" />
@@ -35,7 +35,7 @@ function App() {
             <Skills/>
             <ScrollToTop />
           </div>
-          <div  className={theme === "dark" ? "bg-koyukahve" :"bg-zinc-100"}>
+          <div  className="dark:bg-koyukahve bg-zinc-100 ">
             <Profile/>
           </div>
           <div>

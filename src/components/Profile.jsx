@@ -14,7 +14,7 @@ export default function Profile (){
             <h2 className="text-4xl tracking-wide font-medium  pb-10">{profileTitle}</h2>
             <div className="grid md:grid-cols-2">
                 <section className="relative">
-                    <div className={theme === "dark" ? "bg-neutral-600 rounded-2xl p-6 relative z-10 " :"bg-white rounded-2xl p-6 relative z-10"}>
+                    <div className="dark:bg-neutral-600 bg-white rounded-2xl p-6 relative z-10">
                         <h2 className="text-xl text-pink2 font-medium my-6 z-10 font-playfair tracking-wide">{infoTitle}</h2>
                         <div className="grid grid-cols-2 gap-4 z-10">
                             {Object.keys(info).map((key) => (
