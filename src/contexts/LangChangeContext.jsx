@@ -20,10 +20,10 @@ const LangProvider = ({ children }) => {
             const filteredData = response.data.find(item => item.id === language); // Seçilen dile göre filtreleme
             setTranslations(filteredData || {}); // Eğer dil bulunamazsa boş obje atar
             setLoading(false); // Yükleme tamamlandı
-            if (isFirstLoad) {
+            /* if (isFirstLoad) {
                 toast('Merhaba!');
                 setIsFirstLoad(false); 
-            }
+            } */
         } catch (error) {
             console.error('Error fetching translations:', error);
         }

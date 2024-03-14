@@ -26,3 +26,47 @@
     font-family: 'Playfair Display', serif;
   }
   
+
+  .radio-btn {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    padding: 2px;
+    background-color: #e92577;
+    border-radius: 50px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .radio-btn .radio-inner {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: #ffc207;
+    border-radius: 50%;
+    transition: all 0.6s;
+  }
+  
+  .radio-btn .radio-inner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -60%;
+    width: 100%;
+    height: 100%;
+    background-color: #e92577;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: all 0.6s;
+  }
+  
+  .radio-btn .radio-inner.active {
+    transform: translateX(calc(50px - 20px));
+  }
+  
+  .radio-btn .radio-inner.active::before {
+    left: -10px;
+    transform: scale(1);
+  }

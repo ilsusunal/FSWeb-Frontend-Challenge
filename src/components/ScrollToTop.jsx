@@ -34,7 +34,7 @@ const ScrollToTop = () => {
         <div className="fixed right-4 bottom-4 z-10 ">
             {isVisible && (
                 <button
-                className={`hover:animate-bounce right-2 bottom-2 sm:right-4 sm:bottom-4 z-10  w-12 h-12 sm:w-24 sm:h-24`}
+                className={`scroll-smooth hover:animate-bounce right-2 bottom-2 sm:right-4 sm:bottom-4 z-10  w-12 h-12 sm:w-24 sm:h-24`}
                     onClick={scrollToTop}
                 >
                   <img src={scrollUp}  alt="ScrollButton" /> 
